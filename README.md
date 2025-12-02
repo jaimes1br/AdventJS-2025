@@ -19,6 +19,7 @@ Advent.js, es un reto de código navideños pensado en mejorar tu lógica de pro
 |  #  |                  Reto                       |                Solución                  |  Resultado  |  Nivel  |
 | :-: | :------------------------------------------------------------------: | :----------------------------------------: | :---------: | :---------: |
 | 01  |🎁 Filtrar los regalos defectuosos| [Ver](retos/01_filtrar_regalos_defectuosos/README.md) |   8 ⭐   |    🟢    |
+| 02  |      🏭 Fabrica los juguetes      | [Ver](retos/02_fabrica_juguetes/README.md) |   8 ⭐   |    🟢    |
 
 *Esta tabla muestra los resultado evaluados para `javascript`*
 

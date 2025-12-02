@@ -12,7 +12,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "test:1": "jest -i retos/01_filtrar_regalos_defectuosos"
+    "test:1": "jest -i retos/01_filtrar_regalos_defectuosos",
+    "test:2": "jest -i retos/02_fabrica_juguetes"
   },
   "devDependencies": {
     "jest": "^29.7.0"

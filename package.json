@@ -1,0 +1,19 @@
+{
+  "name": "adventjs-2025",
+  "version": "1.0.0",
+  "description": "Soluciones a los retos del AdvnetJS 2025",
+  "keywords": [
+    "javascript",
+    "jest",
+    "adventjs"
+  ],
+  "author": "Brandon Jaimes",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

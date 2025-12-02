@@ -7,7 +7,7 @@ Advent.js, es un reto de código navideños pensado en mejorar tu lógica de pro
 <p align="center">
   <img  
     height="80"
-    src="https://github.com/user-attachments/assets/98924304-1564-4c20-b67a-f2cae510e4d3"
+    src="https://github.com/user-attachments/assets/0841138b-2072-4741-b520-c265b6d6421d"
     alt="Logo Adventjs"
   />
 </p>

@@ -16,15 +16,17 @@ Advent.js, es un reto de código navideños pensado en mejorar tu lógica de pro
 
 ## 🕹️ Retos
 
-|  #  |                  Reto                       |                Solución                  |  Resultado  |  Nivel  |
-| :-: | :------------------------------------------------------------------: | :----------------------------------------: | :---------: | :---------: |
-| 01  |🎁 Filtrar los regalos defectuosos| [Ver](retos/01_filtrar_regalos_defectuosos/README.md) |   8 ⭐   |    🟢    |
-| 02  |      🏭 Fabrica los juguetes      | [Ver](retos/02_fabrica_juguetes/README.md) |   8 ⭐   |    🟢    |
-| 03  |        👶 Ayuda al becario        | [Ver](retos/03_ayuda_becario/README.md) |   8 ⭐   |    🟢    |
-| 04  |    📚 Descifra el pin de Santa    | [Ver](retos/04_descifra_pin/README.md) |   8 ⭐   |    🟢    |
-| 05  |⌚ La cuenta atrás para el despegue| [Ver](retos/05_cuenta_atras/README.md) |   8 ⭐   |    🟢    |
+|  #  |                  Reto                       |                Solución                  |  Resultado  |  Extra  |  Nivel  |
+| :-: | :------------------------------------------------------------------: | :----------------------------------------: | :---------: | :-----: | :---------: |
+| 01  |🎁 Filtrar los regalos defectuosos| [Ver](retos/01_filtrar_regalos_defectuosos/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
+| 02  |      🏭 Fabrica los juguetes      | [Ver](retos/02_fabrica_juguetes/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
+| 03  |        👶 Ayuda al becario        | [Ver](retos/03_ayuda_becario/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
+| 04  |    📚 Descifra el pin de Santa    | [Ver](retos/04_descifra_pin/README.md) |   5 ⭐   |   2 ⭐   |    🟠    |
+| 05  |⌚ La cuenta atrás para el despegue| [Ver](retos/05_cuenta_atras/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 
 *Esta tabla muestra los resultado evaluados para `javascript`*
+
+Niveles: 🟢 Fácil 🟠 Medio
 
 Este es el quinto año que con este reto y ya esperamos el siguiente con ansias.
 Los repositorios de los años anteriores disponibles en:

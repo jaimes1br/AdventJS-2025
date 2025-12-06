@@ -15,6 +15,7 @@
     "test:1": "jest -i retos/01_filtrar_regalos_defectuosos",
     "test:2": "jest -i retos/02_fabrica_juguetes",
     "test:3": "jest -i retos/03_ayuda_becario",
+    "test:4": "jest -i retos/04_descifra_pin",
     "test:5": "jest -i retos/05_cuenta_atras"
   },
   "devDependencies": {

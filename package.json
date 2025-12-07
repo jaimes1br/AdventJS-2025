@@ -17,7 +17,8 @@
     "test:3": "jest -i retos/03_ayuda_becario",
     "test:4": "jest -i retos/04_descifra_pin",
     "test:5": "jest -i retos/05_cuenta_atras",
-    "test:6": "jest -i retos/06_emparejando_guantes"
+    "test:6": "jest -i retos/06_emparejando_guantes",
+    "test:7": "jest -i retos/07_montando_arbol"
   },
   "devDependencies": {
     "jest": "^29.7.0"

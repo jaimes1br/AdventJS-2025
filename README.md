@@ -25,6 +25,7 @@ Advent.js, es un reto de código navideños pensado en mejorar tu lógica de pro
 | 05  |⌚ La cuenta atrás para el despegue| [Ver](retos/05_cuenta_atras/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 | 06  |      🧤 Emparejando guantes       | [Ver](retos/06_emparejando_guantes/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 | 07  |       🎄 Montando el árbol        | [Ver](retos/07_montando_arbol/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
+| 08  |    🎁 Encuentra el regalo único   | [Ver](retos/08_encuentra_juguete/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 
 *Esta tabla muestra los resultado evaluados para `javascript`*
 

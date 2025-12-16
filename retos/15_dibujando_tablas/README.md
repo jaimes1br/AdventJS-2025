@@ -57,63 +57,54 @@ drawTable(
 ## Solución propuesta
 
 ```javascript
-function findGiftPath(workshop, gift) {
+function drawTable(data, sortBy) {
 
-    if(Object.entries(workshop).length === 0) return []
+    if(data.length === 0) return '';
+    const sorted = [...data];
 
-    const checkObject = (key,obj) => {
-        // Case 1: Base Case - Value found
-        if(obj === gift){
-            return [key]
-        }
-
-        // Case 2: Recursive Step - Search within nested object
-        if(typeof obj === 'object' && obj !== null){
-            for (const keyIn of Object.keys(obj)) {
-                const r = checkObject(keyIn,obj[keyIn])
-                if(r.length > 0){
-                    // Add the current key to the beginning of the found sub-path.
-                    return [key,...r]
-                }
-            }
-        }
-
-        // Case 3: Not found in this branch
-        return []
+    if(typeof data[0][sortBy] === 'number'){
+        sorted.sort((a,b) => a[sortBy] - b[sortBy])
+    } else {
+        sorted.sort((a,b) => a[sortBy].localeCompare(b[sortBy]))
     }
 
-    for(let key in workshop){
-        const r = checkObject(key,workshop[key])
-        if(r.length > 0) return r
-    }
+    let sizes = {}
+    Object.keys(data[0]).forEach(key => {
+        sizes[key] = 0;
 
-    return []
-} // 4⭐
-```
+        sorted.forEach(value => {
+            const l = `${value[key]}`.length;
+            if(sizes[key] < l) sizes[key] = l;
+        });
+    })
+    
 
-## Solución propuesta #2 5 ⭐
+    let line = '';
+    let headers = '';
 
-```javascript
-function findGiftPath(workshop, gift) {
-    const checkObject = (currentObj, path = []) => {
-      if (currentObj === gift) {
-        return path;
-      }
+    Object.keys(sizes).forEach((key,i) => {
+        line += '+-' + ''.padEnd(sizes[key],'-') + '-';
 
-      if (typeof currentObj === 'object' && currentObj !== null) {
-        for (const key of Object.keys(currentObj)) {
-          const newPath = [...path, key];
-          const resultPath = checkObject(currentObj[key], newPath);
+        const char = 65 + i;
+        const c = String.fromCharCode(char);
+        headers += '| ' + c.padEnd(sizes[key],' ') + ' ';
+    })
 
-          if (resultPath.length > 0) {
-            return resultPath; 
-          }
+    line += '+';
+    headers += '|';
+
+    const r = [line, headers, line]; 
+    sorted.forEach(value => {
+        let line = '';
+        for(let key in value){
+            const str = `${value[key]}`;
+            line += `| ${str.padEnd(sizes[key],' ')} `;
         }
-      }
 
-      return [];
-    };
-
-    return checkObject(workshop);
+        r.push(line + '|')
+    })
+     
+    r.push(line);
+    return r.join('\n');
 }
 ```

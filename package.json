@@ -23,7 +23,8 @@
     "test:9": "jest -i retos/09_reno_robot",
     "test:11": "jest -i retos/11_regalos_vigilancia",
     "test:12": "jest -i retos/12_batalla_elfos",
-    "test:15": "jest -i retos/15_dibujando_tablas"
+    "test:15": "jest -i retos/15_dibujando_tablas",
+    "test:16": "jest -i retos/16_empaquetando_regalos"
   },
   "devDependencies": {
     "jest": "^29.7.0"

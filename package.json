@@ -21,6 +21,7 @@
     "test:7": "jest -i retos/07_montando_arbol",
     "test:8": "jest -i retos/08_encuentra_juguete",
     "test:9": "jest -i retos/09_reno_robot",
+    "test:11": "jest -i retos/11_regalos_vigilancia",
     "test:12": "jest -i retos/12_batalla_elfos",
     "test:15": "jest -i retos/15_dibujando_tablas"
   },

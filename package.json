@@ -24,6 +24,7 @@
     "test:11": "jest -i retos/11_regalos_vigilancia",
     "test:12": "jest -i retos/12_batalla_elfos",
     "test:13": "jest -i retos/13_cadena_montaje",
+    "test:14": "jest -i retos/14_encuentra_camino",
     "test:15": "jest -i retos/15_dibujando_tablas",
     "test:16": "jest -i retos/16_empaquetando_regalos"
   },

@@ -33,6 +33,7 @@ Advent.js, es un reto de código navideños pensado en mejorar tu lógica de pro
 | 14  | 🗃 Encuentra el camino al regalo  | [Ver](retos/14_encuentra_camino/README.md) |   5 ⭐   |   2 ⭐   |    🟢    |
 | 15  |        ✏ Dibujando tablas        | [Ver](retos/15_dibujando_tablas/README.md) |   5 ⭐   |   3 ⭐   |    🟠    |
 | 16  |🎁 Empaquetando regalos para santa | [Ver](retos/16_empaquetando_regalos/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
+| 17  |  🎄 El panel de luces navideñas   | [Ver](retos/17_panel_navideno/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 
 *Esta tabla muestra los resultado evaluados para `javascript`*
 

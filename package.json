@@ -28,7 +28,8 @@
     "test:15": "jest -i retos/15_dibujando_tablas",
     "test:16": "jest -i retos/16_empaquetando_regalos",
     "test:17": "jest -i retos/17_panel_navideno",
-    "test:18": "jest -i retos/18_luces_linea"
+    "test:18": "jest -i retos/18_luces_linea",
+    "test:19": "jest -i retos/19_viaje_secreto"
   },
   "devDependencies": {
     "jest": "^29.7.0"

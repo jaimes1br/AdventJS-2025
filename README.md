@@ -27,7 +27,7 @@ Advent.js, es un reto de código navideños pensado en mejorar tu lógica de pro
 | 07  |       🎄 Montando el árbol        | [Ver](retos/07_montando_arbol/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 | 08  |    🎁 Encuentra el regalo único   | [Ver](retos/08_encuentra_juguete/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 | 09  |     🦌 El reno robot aspirador    | [Ver](retos/09_reno_robot/README.md) |   5 ⭐   |   3 ⭐   |    🔴    |
-| 09  |📨 Profundidad de la magia navideña| [Ver](retos/10_profundidad/) |   5 ⭐   |   3 ⭐   |    🟢    |
+| 10  |📨 Profundidad de la magia navideña| [Ver](retos/10_profundidad/) |   5 ⭐   |   3 ⭐   |    🟢    |
 | 11  |     📹 Regalos sin vigilancia     | [Ver](retos/11_regalos_vigilancia/README.md) |   5 ⭐   |   3 ⭐   |    🟢    |
 | 12  |        ⚔ Batalla de elfos         | [Ver](retos/12_batalla_elfos/README.md) |   5 ⭐   |   3 ⭐   |    🟠    |
 | 13  |      🏭 La cadena de montaje      | [Ver](retos/13_cadena_montaje/README.md) |   5 ⭐   |   3 ⭐   |    🟠    |
